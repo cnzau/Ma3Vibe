@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mat000"
     android:orientation="vertical"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="444dp"
+        android:text="Ma3vibe"
+        android:textSize="80dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="#ac000000"
+        android:gravity="center"
+        android:layout_weight="0.80"
+        android:textStyle="bold|italic" />
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Powered by: MobWebz Solutions"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="#ac000000"
+        android:gravity="center"
+        android:layout_weight="0.22"
+        android:textStyle="italic" />
+
+</LinearLayout>
