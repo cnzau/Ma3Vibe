@@ -24,12 +24,13 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Powered by: MobWebz Solutions"
-        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:textSize="14dp"
         android:textColor="#FFFFFF"
         android:textAlignment="center"
         android:background="#ac000000"
         android:gravity="center"
-        android:layout_weight="0.22"
+        android:layout_weight="0.32"
         android:textStyle="italic" />
 
 </LinearLayout>
