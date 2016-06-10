@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="444dp"
-        android:text="Ma3vibe"
+        android:text="@string/app_name"
         android:textSize="80dp"
         android:textColor="#FFFFFF"
         android:textAlignment="center"
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Powered by: MobWebz Solutions"
+        android:text="@string/powered"
         android:id="@+id/textView"
         android:textSize="14dp"
         android:textColor="#FFFFFF"
