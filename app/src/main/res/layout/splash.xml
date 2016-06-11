@@ -13,7 +13,7 @@
         android:textSize="80dp"
         android:textColor="#FFFFFF"
         android:textAlignment="center"
-        android:background="#ac000000"
+        android:background="#00000000"
         android:gravity="center"
         android:layout_weight="0.80"
         android:textStyle="bold|italic"
@@ -28,7 +28,7 @@
         android:textSize="14dp"
         android:textColor="#FFFFFF"
         android:textAlignment="center"
-        android:background="#ac000000"
+        android:background="#10000000"
         android:gravity="center"
         android:layout_weight="0.32"
         android:textStyle="italic" />
